@@ -1,1 +1,15 @@
+@import "./sass_variables/variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-stack;
+
+}
+
+body{
+    padding: 25px;
+    background-color: $body-bg-color;
+}
 
