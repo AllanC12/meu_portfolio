@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.sass';
+ import './App.scss';
+
+//components
+import Main from './components/Main';
+import Aside from './components/Aside';
 
 
 function App() {
   return (
     <div className="App">
+      <Aside/>
+      <Main/>
     </div>
   );
 }

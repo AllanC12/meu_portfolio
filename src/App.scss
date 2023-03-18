@@ -1,0 +1,13 @@
+@import "./sass_variables/variables.scss";
+
+.btn{
+  color: $text-color;  
+  background-color: $gradient;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
