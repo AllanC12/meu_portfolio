@@ -1,8 +1,6 @@
 import "./sass_components/ProfileContainer.scss"
 
-import {FaLinkedinIn} from 'react-icons/fa'
-import {FaInstagram} from 'react-icons/fa'
-import {FaGithub} from 'react-icons/fa'
+import {FaLinkedinIn,FaInstagram,FaGithub} from 'react-icons/fa'
 
 const socialMedias = [
     {id:'linkedin',icon:<FaLinkedinIn/>},
