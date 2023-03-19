@@ -14,7 +14,7 @@ const ProfileContainer = () => {
         <div className="photo-profile">
            {/* <img src="" alt="Foto perfil" /> */}
         </div>
-        <p className="title-developer">Desenvolvedor</p>
+        <p className="title-developer">Desenvolvedor Front-End</p>
         <div className="social-medias">
           {socialMedias.map(socialMedia => (
              <a className={socialMedia.id} key={socialMedia.id} href="">{socialMedia.icon}</a>
