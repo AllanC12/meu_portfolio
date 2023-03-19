@@ -1,0 +1,47 @@
+@import "../../sass_mixins/mixin.scss";
+@import "../../sass_variables/variables.scss";
+
+.contacts-container{
+    width: 100%;
+    max-width: 240px;
+    padding: 20px 15px;
+    border-radius: $card-border-radius;
+    @include column-center;
+    background-color: $bg-color-secondary;
+    margin: 30px auto;
+
+    .contact{
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+      @include center;
+        span{
+            width: 5%;
+         }
+        
+        .value-contacts{
+            width: 90%;
+            margin-left: 8%;
+            color: $text-color;
+
+            p , h4{
+                margin: 5px 0;
+            }
+ 
+        }
+
+        .phone{
+            color: #bc2a8d;
+        }
+
+        .email{
+            color: #c17ceb;
+        }
+
+        .location{
+            color: #6ab5b9;
+        }
+    }
+
+
+}
