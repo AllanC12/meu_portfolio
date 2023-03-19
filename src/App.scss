@@ -14,6 +14,6 @@ a{
 h1{
   background: $gradient;
   -webkit-text-fill-color: transparent;
-   -webkit-background-clip: text;
+   background-clip: text;
    font-size: 5em;
 }

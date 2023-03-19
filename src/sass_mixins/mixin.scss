@@ -1,16 +1,24 @@
-@use 'variables';
-    
+@import "../sass_variables/variables.scss"; 
+
 @mixin center{   
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+@mixin column-center{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 
 @mixin btn{    
     padding: 1rem 1.2rem;
-    color: variables.$text-color;
-    background: variables.$gradient;
+    color: $text-color;
+    background: $gradient;
     text-decoration: none;
     border-radius: 3rem;
 }
@@ -18,7 +26,7 @@
 
 @mixin gradient-border{    
     content: "";
-    background: variables.$gradient;
+    background: $gradient;
     height: 3px;
     width: 30%;
 }
