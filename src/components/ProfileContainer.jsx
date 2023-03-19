@@ -1,13 +1,13 @@
 import "./sass_components/ProfileContainer.scss"
 
-import {FaLinkedin} from 'react-icons/fa'
+import {FaLinkedinIn} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 
 const socialMedias = [
-    {id:'linkedin',name:'Linkedin',icon:<FaLinkedin/>},
-    {id:'instagram',name:'Instagram',icon:<FaInstagram/>},
-    {id:'github',name:'Github',icon:<FaGithub/>}
+    {id:'linkedin',icon:<FaLinkedinIn/>},
+    {id:'instagram',icon:<FaInstagram/>},
+    {id:'github',icon:<FaGithub/>}
 ]
 
 const ProfileContainer = () => {
@@ -19,7 +19,7 @@ const ProfileContainer = () => {
         <p className="title-developer">Desenvolvedor</p>
         <div className="social-medias">
           {socialMedias.map(socialMedia => (
-             <a calssName="social-media" key={socialMedia.id} href="">{socialMedia.icon}</a>
+             <a className={socialMedia.id} key={socialMedia.id} href="">{socialMedia.icon}</a>
           ))}
         </div>
 
