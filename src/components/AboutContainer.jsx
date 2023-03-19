@@ -1,8 +1,13 @@
-import React from 'react'
+import "./sass_components/AboutContainer.scss";
 
 const AboutContainer = () => {
   return (
-    <div>AboutContainer</div>
+    <div>
+       <div className="title-about">
+          <h1>Sobre</h1>
+          <div className="line-title"></div>
+        </div>
+    </div>
   )
 }
 
