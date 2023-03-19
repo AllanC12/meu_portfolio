@@ -4,7 +4,7 @@
 .contacts-container{
     width: 100%;
     max-width: 240px;
-    padding: 20px 15px;
+    padding: 10px 5px;
     border-radius: $card-border-radius;
     @include column-center;
     background-color: $bg-color-secondary;
@@ -15,17 +15,23 @@
       border-bottom: 1px solid #ccc;
       padding: 10px 0;
       @include center;
-        span{
-            width: 5%;
+
+        svg{
+            width: 10%;
          }
         
         .value-contacts{
             width: 90%;
             margin-left: 8%;
-            color: $text-color;
-
-            p , h4{
+ 
+            p , a{
                 margin: 5px 0;
+                color: $text-color;
+            }
+
+            a{
+                text-decoration: none;
+                font-weight: bold;
             }
  
         }
