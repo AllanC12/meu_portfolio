@@ -1,0 +1,11 @@
+@import "../../sass_mixins/mixin.scss";
+@import "../../sass_variables/variables.scss";
+
+.sidebar{
+    @include center;
+    width: 100%;
+    max-width: 300px;
+    background-color: $bg-color;
+    height: 120vh;
+    border-radius: $card-border-radius;
+}
