@@ -1,4 +1,4 @@
-import "./sass_components/ContactsContainer.scss"
+import "./sass_components/ContactsContainer.scss";
 
 import {FaMapMarkerAlt,FaPhone,FaEnvelope} from 'react-icons/fa';
 
