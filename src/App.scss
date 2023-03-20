@@ -1,4 +1,9 @@
  @import "./sass_variables/variables.scss";
+ @import "./sass_mixins/mixin.scss";
+
+ .components {
+   @include flex-space-between;
+ }
 
 .btn{
   margin-top: 25px;
