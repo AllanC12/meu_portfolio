@@ -6,7 +6,7 @@ import AboutContainer from "./AboutContainer"
 const Main = () => {
   return (
     <div className="main-container">
-      
+       <AboutContainer/>
     </div>
   )
 }

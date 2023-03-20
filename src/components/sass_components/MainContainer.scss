@@ -2,7 +2,9 @@
 @import "../../sass_variables/variables.scss";
 
 .main-container {
-    padding: 20px;
+    position: relative;
+    top: -18px;
+    padding: 40px;
     width: 100%;
     max-width: 900px;
     height: 90vh;

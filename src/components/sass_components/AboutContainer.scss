@@ -1,0 +1,25 @@
+@import "../../sass_mixins/mixin.scss";
+@import "../../sass_variables/variables.scss";
+
+.title-about{
+    @include flex-start;
+
+    h1{
+        color: $text-color;
+        font-size: 3em
+    }
+}
+
+.line-title{
+    @include gradient-border;
+    margin-left: 30px;
+}
+
+.about-container{
+    p{
+        text-align: justify;
+        color: $text-color-secondary;
+        font-size: 1em;
+        margin-top: 20px;
+    }
+}

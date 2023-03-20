@@ -9,7 +9,7 @@ import Aside from './components/Aside';
 function App() {
   return (
     <div className="App">
-      <h1>Allan Cândido</h1>
+      <h1 className="title-developer">Allan Cândido</h1>
         <div className="components">
           <Aside/>
           <Main/>

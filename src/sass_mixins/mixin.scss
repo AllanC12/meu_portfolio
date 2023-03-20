@@ -12,6 +12,12 @@
     align-items: center;
 }
 
+@mixin flex-start{   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 @mixin flex-space-between{   
     display: flex;
     justify-content: space-between;
@@ -28,6 +34,7 @@
 
 
 @mixin btn{    
+    margin-top: 15px;
     padding: 1rem 1.2rem;
     color: $text-color;
     background: $gradient;
