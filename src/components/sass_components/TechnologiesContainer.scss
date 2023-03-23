@@ -1,0 +1,17 @@
+@import "../../sass_mixins/mixin.scss";
+@import "../../sass_variables/variables.scss";
+
+.technologies-container{
+    @include flex-wrap;
+    width: 100%;
+    background-color: green;
+    margin-top: 40px;
+
+    .container-tech{
+        width: 46%;
+        padding: 20px;
+        border: 1px solid $text-color-secondary;
+        margin-top: 20px;
+    }
+}
+

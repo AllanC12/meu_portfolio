@@ -1,3 +1,5 @@
+import "./sass_components/TechnologiesContainer.scss"
+
 import {FaHtml5,FaCss3Alt,FaSass,FaGitAlt,FaReact} from 'react-icons/fa'
 import {SiJavascript} from 'react-icons/si'
 
