@@ -16,9 +16,12 @@ const TechnologiesContainer = () => {
     <div className="technologies-container">
        {techs.map(tech => (
           <div className="container-tech">
-              {tech.icon}
+              <div id={tech.id} className="container-svg">
+                {tech.icon}
+              </div>
               <div className="information-tech">
-              {tech.name}
+                 <h2 className="title-tech">{tech.name}</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
           </div>
        ))}

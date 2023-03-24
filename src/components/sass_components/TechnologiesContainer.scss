@@ -4,14 +4,62 @@
 .technologies-container{
     @include flex-wrap;
     width: 100%;
-    background-color: green;
     margin-top: 40px;
 
     .container-tech{
+        @include center;
         width: 46%;
         padding: 20px;
         border: 1px solid $text-color-secondary;
         margin-top: 20px;
+         
+        .container-svg{
+            width: 15%;
+
+            svg{
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        #html{
+            color: #E44D26;
+        }
+
+        #css{
+            color: #1572B6;
+        }
+
+        #js{
+            color: #F0DB4F;
+        }
+
+        #react{
+            color: #61DAFB;
+        }
+
+        #sass{
+            color:#ba2749;
+        }
+
+        #git{
+            color: #fc5a35;
+        }
+
+        .information-tech{
+            width: 85%;
+
+            h2{
+                color: $text-color;
+                font-size: 1.3em;
+            }
+
+            p{
+                color: $text-color-secondary;
+                font-size: 1em;
+                margin-top: 5px;
+            }
+        }
     }
 }
 
