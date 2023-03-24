@@ -2,7 +2,7 @@
 
 @mixin flex-wrap{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
  }
@@ -28,7 +28,6 @@
 @mixin flex-space-between{   
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 @mixin column-center{   

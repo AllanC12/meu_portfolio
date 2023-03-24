@@ -13,8 +13,14 @@ const TechnologiesContainer = () => {
         {id:'git',name:'GIT',icon:<FaGitAlt/>}
     ]
   return (
-    <div className="technologies-container">
-       {techs.map(tech => (
+    <div> 
+       <div className="title-technologies">
+         <h1>Tecnologias</h1>
+         <div className="line-title"></div>
+       </div>       
+
+   <div className="technologies-container">
+     {techs.map(tech => (
           <div className="container-tech">
               <div id={tech.id} className="container-svg">
                 {tech.icon}
@@ -25,6 +31,8 @@ const TechnologiesContainer = () => {
               </div>
           </div>
        ))}
+   </div>
+
     </div>
   )
 }
