@@ -5,17 +5,24 @@ import {SiJavascript} from 'react-icons/si'
 
 const TechnologiesContainer = () => {
     const techs = [
-        {id:'html',name:'HTML5',icon:<FaHtml5/>},
-        {id:'css',name:'CSS3',icon:<FaCss3Alt/>},
-        {id:'js',name:'Javascript',icon:<SiJavascript/>},
-        {id:'sass',name:'SASS',icon:<FaSass/>},
-        {id:'react',name:'React',icon:<FaReact/>},
-        {id:'git',name:'GIT',icon:<FaGitAlt/>}
+      {id:'html',name:'HTML5',icon:<FaHtml5/>,description:`Linguagem de marcação web utilizada para marcar e
+        definir a estrutura dos seus componentes.`},
+      {id:'css',name:'CSS3',icon:<FaCss3Alt/>,description:`Cascading Style Sheets , ou folhas de estilo em cascata, 
+      utilizada na estilização dos elementos html.`},
+      {id:'js',name:'Javascript',icon:<SiJavascript/> ,description:`Uma das mais famosas linguagens de programação, 
+      presente em quase todos os ecossistemas da TI.`},
+      {id:'sass',name:'SASS',icon:<FaSass/>,description:`Pré-processador de CSS, usado para melhorar a produtividade
+        e proporcionar funcionalidades únicas.`},
+      {id:'react',name:'React',icon:<FaReact/>, description: `Uma das bibliotecas de desenvolvimento mais famosas e utilizada
+        por empresas como Facebook, Instagram, Airbnb, Uber, entre outras.`},
+      {id:'git',name:'GIT',icon:<FaGitAlt/>,description:`A ferramenta essencial para desenvolvedores versionarem seus códigos
+        e manterem seus trabalhos salvos e atualizados.`}
     ]
+
   return (
     <div> 
        <div className="title-technologies">
-         <h1>Tecnologias</h1>
+         <h1>Habilidades</h1>
          <div className="line-title"></div>
        </div>       
 
@@ -27,7 +34,7 @@ const TechnologiesContainer = () => {
               </div>
               <div className="information-tech">
                  <h2 className="title-tech">{tech.name}</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                 <p>{tech.description}</p>
               </div>
           </div>
        ))}
