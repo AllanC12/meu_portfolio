@@ -16,7 +16,7 @@ const ContactsContainer = () => {
                 <FaPhone className="phone"/>
                <div className="value-contacts">
                   <p>Telefone</p>
-                  <a href="">(37)98855-1832</a>
+                  <a target="_blank" href="https://wa.me/+5537988551832">(37)98855-1832</a>
                </div>
            </div>
 
@@ -24,7 +24,7 @@ const ContactsContainer = () => {
                 <FaEnvelope className="email"/>
                <div className="value-contacts">
                   <p>E-mail</p>
-                  <a href="">allandevfront@gmail.com</a>
+                  <a target="_blank" href="mailto:allandevfront@gmail.com">allandevfront@gmail.com</a>
                </div>
            </div>
 
@@ -32,11 +32,11 @@ const ContactsContainer = () => {
                 <FaMapMarkerAlt className="location"/>
                <div className="value-contacts">
                   <p>Localização</p>
-                  <a href="">São Francisco de Paula MG</a>
+                  <a target="_blank" href="https://goo.gl/maps/Zcam5JgKzBux35W48">São Francisco de Paula MG</a>
                </div>
            </div>
  
-        <a href="" className="btn">Baixar currículo em PDF</a>
+        <a href="http://localhost:3000/archives/curriculo.pdf" download className="btn">Baixar currículo em PDF</a>
      </div>
   )
 }
