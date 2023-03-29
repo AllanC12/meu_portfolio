@@ -5,7 +5,7 @@ import {SiJavascript} from 'react-icons/si'
 
 const TechnologiesContainer = () => {
     const techs = [
-      {id:'html',name:'HTML5',icon:<FaHtml5/>,description:`Linguagem de marcação web utilizada para marcar e
+      {id:'html',name:'HTML5',icon:<FaHtml5/>,description:`Linguagem de marcação web utilizada para limitar e
         definir a estrutura dos seus componentes.`},
       {id:'css',name:'CSS3',icon:<FaCss3Alt/>,description:`Cascading Style Sheets , ou folhas de estilo em cascata, 
       utilizada na estilização dos elementos html.`},
