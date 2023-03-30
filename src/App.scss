@@ -20,5 +20,15 @@ h1.title-developer{
    font-size: 4em;
 }
 
+@media (max-width: 768px){
+  .title-developer{
+    text-align: center;
+  }
+
+  .components{
+    @include column-center;
+  }
+}
+
 
   
