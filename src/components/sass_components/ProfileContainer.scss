@@ -9,8 +9,10 @@
     width: 100%;
     max-width: 160px;
     height: 25vh;
-    background-color: green;
-    border-radius: $card-border-radius;
+    background-image: url("../../../public/images/profile.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     top: -40px;
 }
