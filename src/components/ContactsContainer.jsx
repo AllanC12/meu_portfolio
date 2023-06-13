@@ -30,7 +30,7 @@ const ContactsContainer = () => {
                </div>
            </div>
 
-           <a href="https://github.com/AllanC12/meu_portfolio/archives/curriculo_allan.pdf" download className="btn">Baixar currículo em PDF</a>
+           <a href="archives/curriculo_allan.pdf" download className="btn">Baixar currículo em PDF</a>
       </div>
   )
 }
