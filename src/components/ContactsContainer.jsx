@@ -29,6 +29,8 @@ const ContactsContainer = () => {
                   <a target="_blank" href="https://goo.gl/maps/Zcam5JgKzBux35W48">São Francisco de Paula MG</a>
                </div>
            </div>
+
+           <a href="https://allanc12.github.io/archives/curriculo_allan.pdf" download className="btn">Baixar currículo em PDF</a>
       </div>
   )
 }
