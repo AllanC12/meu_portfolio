@@ -11,7 +11,7 @@ const ContactsContainer = () => {
         <div className="value-contacts">
           <p>Telefone</p>
           <a target="_blank" href="https://wa.me/+5537998287395">
-            (37)37998287395
+            (37)998287395
           </a>
         </div>
       </div>
