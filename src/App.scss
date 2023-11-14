@@ -2,7 +2,8 @@
  @import "./sass_mixins/mixin.scss";
 
  .components {
-   @include flex-space-between;
+   @include flex-center;
+   gap: 4%;
  }
 
 .btn{
