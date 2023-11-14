@@ -30,6 +30,11 @@
     justify-content: space-between;
 }
 
+@mixin flex-space-around{   
+    display: flex;
+    justify-content: space-around;
+}
+
 @mixin column-center{   
     display: flex;
     justify-content: center;
