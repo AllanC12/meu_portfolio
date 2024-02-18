@@ -24,7 +24,7 @@
     .container-tech{
         @include center;
         width: 49%;
-        padding: 20px;
+        padding: 15px;
         border: 1px solid $text-color-secondary;
         margin-top: 20px;
          
@@ -42,6 +42,9 @@
         }
 
         #css{
+            color: #1572B6;
+        }
+        #typescript{
             color: #1572B6;
         }
 
